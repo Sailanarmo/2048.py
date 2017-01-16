@@ -4,6 +4,9 @@ from __future__ import print_function
 from random import randint
 import sys
 
+#This is a games of 2048. The goal is to get to the score 2048 by
+#merging as many blocks as you can.
+
 def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
     ints=[]
     for y in r:
